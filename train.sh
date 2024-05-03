@@ -3,7 +3,7 @@
 #SBATCH --time=09:59:00
 #SBATCH --partition=gpu 
 #SBATCH --gres=gpu:tesla:1 
-#SBATCH --output=/gpfs/space/home/amlk/HNLPHW/slurm_%x.%j.out # STDOUT
+#SBATCH --output=/gpfs/space/home/amlk/NLPHW/slurm_%x.%j.out # STDOUT
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=anton.malkovski@ut.ee
 
