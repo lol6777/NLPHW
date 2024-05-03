@@ -111,7 +111,7 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     data_collator = DataCollatorForTokenClassification(tokenizer)
 
-    ds = load_dataset(args.dataset_name)
+    ds = load_dataset(args.dataset_name, download_mode="force_redownload")
     ds = ds.map(
         tokenize_and_align_labels,
         batched=True,
