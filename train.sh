@@ -9,4 +9,4 @@
 # You also have to pass the command line args (such as dataset name) to the script here, as well
 # You may use whichever virtual environment manager you prefer (conda, venv, etc.)
 source hpc_tutorial_pt
-python train.py --dataset_name conll2003
+python train.py --dataset_name conll2003 --model_name_or_path distilbert-base-uncased
