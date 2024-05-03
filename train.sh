@@ -21,7 +21,7 @@ $HOME/.conda/envs/hpc_tutorial_pt/bin/python $HOME/.conda/envs/hpc_tutorial_pt/H
             --label_column_name "ner_tags" \
             --max_length 128 \
             --num_train_epochs 2 \
-            --output_dir "$HOME/NLP_HW3/results" \
+            --output_dir "$HOME/NLPHW3/" \
             --train_batch_size 64 \
             --eval_batch_size 64 \
             --return_entity_level_metrics
